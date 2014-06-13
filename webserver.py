@@ -7,8 +7,8 @@ from scraper import scrape
 app = Flask(__name__)
 
 
-@app.route("/")
-def index():
+@app.route("/api")
+def api():
     return jsonify(scrape())
     #return jsonify({'foo': 'bar'})
 
