@@ -5,6 +5,7 @@ from scraper import scrape
 
 
 app = Flask(__name__)
+app.debug = True
 
 
 @app.route("/api")
@@ -15,4 +16,3 @@ def api():
 
 if __name__ == "__main__":
     app.run()
-
