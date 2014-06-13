@@ -8,5 +8,6 @@ MarkupSafe==0.23
 Werkzeug==0.9.6
 itsdangerous==0.24
 
-git+git://github.com/loisaidasam/worldcup-scraper.git@aea21738940e6bb8c573875806cb43233ee192eb
+#git+git://github.com/loisaidasam/worldcup-scraper.git@aea21738940e6bb8c573875806cb43233ee192eb
+git+git://github.com/loisaidasam/worldcup-scraper.git
 
